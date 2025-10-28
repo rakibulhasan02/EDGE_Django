@@ -1,0 +1,115 @@
+⚙️ QUIZ 1 – 10 Marks
+Focus: Basic understanding, setup, and project structure.
+Format: Short practical tasks (each 2 marks)
+#
+Task
+Marks
+1.
+Create a new Django project named myfirstproject in your lab directory. Run the development server and show the homepage in browser.  2
+2.
+Create a new app named homepage. Add it to INSTALLED_APPS in settings.py.      2
+3.
+In views.py, define a function index that returns HttpResponse("Welcome to Django!"). Connect it using urls.py.    2
+4.
+Change the default port to 8080 and show that it runs successfully.   2
+5.
+Explain in one line (in code comment) the difference between project and app in Django.  2
+
+
+
+
+
+
+🧱 QUIZ 2 – 10 Marks
+Focus: Templates, static files, and dynamic routing.
+#
+Task
+Marks
+1.
+Create a template index.html showing “Welcome, {{ name }}”.      2
+2.
+Pass the variable name from views.py using render().       2
+3.
+Add a static folder with a CSS file to color the background.    2
+4.
+Add a URL pattern /hello/<str:username>/ and display personalized greeting in template.    2
+5.
+Explain (in code comment) what render() does internally.    2
+
+
+
+
+
+🧮 MIDTERM EXAM – 20 Marks
+Focus: Models, ORM, and basic CRUD operations.
+ Time: 90 minutes (Practical)
+#
+Task
+Marks
+1.
+Create an app named studentapp and model Student with fields: name, roll, department, email.    4
+2.
+Make migrations and migrate the model.    2
+3.
+Register the model in admin site and add 2 student records manually.    3
+4.
+Create a view to list all students on /students/ page using template.    4
+5.
+Add a form to add a new student and save it in database.    5
+6.
+Bonus (optional 2 marks): Add a delete button beside each student record.
+—
+
+
+
+🧭 FINAL EXAM – 25 Marks
+Focus: Complete mini web application integrating all core Django concepts.
+ Time: 2 hours (Lab)
+Scenario:
+Build a Library Management System with basic CRUD functionality.
+#
+Task
+Marks
+1.
+Create an app library with model Book(title, author, published_year, available=True/False).    4
+2.
+Create templates for listing all books and viewing details of one book.    4
+3.
+Add “Add Book” form to insert new books.    4
+4.
+Add Edit and Delete functionality (using function-based views).    5
+5.
+Use Bootstrap for basic layout and a navigation bar (Home, Add Book, About).    4
+6.
+Explain (in comment) how Django handles a POST request internally.    4
+
+
+
+🧑‍💻 TERM PROJECT – 25 Marks
+Focus: Small real-world web application with creativity and teamwork.
+ Duration: Last 3 weeks of course (group of 2 students).
+Project Topics (choose any one)
+Online Product Catalog – add, update, delete products.
+
+
+Event Management System – create and list events.
+
+
+Restaurant Menu – CRUD for menu items, with image upload.
+
+
+Personal Portfolio Website – dynamic content from database.
+
+
+Feedback Collection App – form submission + thank-you page.
+
+
+Component
+Marks
+System design (model, views, URL structure)    5
+Working CRUD features    8
+Template design & static files    4
+Form validation & user experience    3
+Code organization, comments & presentation    5
+
+
